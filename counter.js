@@ -31,6 +31,7 @@ initPorts(function() {
     showDigit(count);
     count++;
     if (count > 9) {
+      closePins();
       clearInterval(intervalID);
     }
   }, 500);
