@@ -2,7 +2,7 @@ var gpio = require('rpi-gpio');
 
 var pins   = [7,11,12,13,15,16,18,22];
 var swichPins = 29;
-var delay = 10000;
+var delay = 1000;
 var count = 0;
 var max   = 8;
 
